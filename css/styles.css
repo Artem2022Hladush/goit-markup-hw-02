@@ -28,6 +28,9 @@ body {
     color: var(--title-text-color);
 
 }
+.site-nav .link.current{
+    color: var(--accent-color);
+}
 /* section */
 .section-title {
   color: var(--title-text-color); 
@@ -37,7 +40,7 @@ body {
     color: var(--title-text-color);
 }
 /* button */
-.hero-btn {
+.button.primary {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     
