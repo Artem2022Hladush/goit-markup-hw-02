@@ -85,3 +85,20 @@ body {
 .footer-list .link:focus {
     color: var(--accent-color);
 }
+
+/* Portfolio */
+
+.filter .btn {
+    color: var(--title-text-color);
+    cursor: pointer;
+    background-color: #F5F4FA; ;
+}
+.filter .btn:hover,
+.filter .btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.project .title {
+    color: var(--title-text-color);
+}
+
