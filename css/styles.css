@@ -167,7 +167,7 @@ text-align: center;
     font-size: 18px;
     line-height: 2;
 }
-.project p {
+.project .text {
     font-size: 16px;
     line-height: 1.88;
 }
