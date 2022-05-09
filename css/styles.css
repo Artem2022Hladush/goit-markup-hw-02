@@ -74,6 +74,14 @@ body {
 .adress {
     color: var(--primary-white-color);
 }
+.adress:hover,
+.adress:focus {
+    color: var(--accent-color);
+}
 .footer-list .link {
     color: rgba(255, 255, 255, 0.6);;
+}
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: var(--accent-color);
 }
