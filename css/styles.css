@@ -23,6 +23,9 @@ body {
 .logo {
     color: var(--title-text-color);
 }
+.web {
+    color: var(--accent-color);
+}
 /* site nav */
 .site-nav .link {
     color: var(--title-text-color);
@@ -30,6 +33,21 @@ body {
 }
 .site-nav .link.current{
     color: var(--accent-color);
+}
+.call .link {
+    color: var(--primary-text-color);
+}
+
+.call .link:hover,
+.call .link:focus {
+    color: var(--accent-color);
+}
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--primary-white-color);
 }
 /* section */
 .section-title {
@@ -40,9 +58,22 @@ body {
     color: var(--title-text-color);
 }
 /* button */
-.button.primary {
+.hero-btn {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    
+}
 
+/* Footer */
+.footer {
+    background-color: #2F303A ;
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+}
+.adress {
+    color: var(--primary-white-color);
+}
+.footer-list .link {
+    color: rgba(255, 255, 255, 0.6);;
 }
