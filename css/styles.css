@@ -3,7 +3,8 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
-
+    --footer-link: rgba(255, 255, 255, 0.6);
+    --footer-bg-color: #2F303A;
 }
 
 
@@ -13,11 +14,13 @@
 /* акцент  #2196F3 */
 /* rgba(255, 255, 255, 0.6) */
 /* вторичный цвет фона #F5F4FA */
+/* #2F303A*/
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    font-size: 14px;
 }
 .list {
     list-style: none;
@@ -37,7 +40,6 @@ body {
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -48,7 +50,6 @@ body {
 }
 .call .link {
     color: var(--primary-text-color);
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -83,12 +84,10 @@ text-align: center;
 .feautere-list .title {
     color: var(--title-text-color);
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 .feautere-list .text {
-    font-size: 14px;
     line-height: 1.71;
 }
 /* Team*/
@@ -118,7 +117,7 @@ text-align: center;
 
 /* Footer */
 .footer {
-    background-color: #2F303A ;
+    background-color: var(--footer-bg-color) ;
 }
 
 .logo-footer {
@@ -131,7 +130,6 @@ text-align: center;
 }
 .adress {
     color: var(--primary-white-color);
-    font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
 }
@@ -140,8 +138,7 @@ text-align: center;
     color: var(--accent-color);
 }
 .footer-list .link {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
+    color: var(--footer-link);
     line-height: 1.71;
     text-decoration: none;
 }
@@ -155,7 +152,7 @@ text-align: center;
 .filter .btn {
     color: var(--title-text-color);
     cursor: pointer;
-    background-color: #F5F4FA; 
+    background-color: var(--primary-white-color); 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
